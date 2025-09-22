@@ -1,53 +1,46 @@
 {
-  "$schema": "https://github.com/glzr-io/zebar/raw/v3.0.3/resources/zpack-schema.json",
-  "name": "simplicity-white",
-  "version": "0.0.3",
-  "description": "A white and black alternative of the sleek and simple zebar theme 'simplicity",
-  "tags": [
-    "transparent",
-    "white and black"
-  ],
-  "previewImages": [
-    "resources\\Preview.png"
-  ],
-  "repositoryUrl": "",
-  "widgets": [
-    {
-      "name": "index",
-      "htmlPath": "index/index.html",
-      "zOrder": "normal",
-      "shownInTaskbar": false,
-      "focused": false,
-      "resizable": false,
-      "transparent": true,
-      "includeFiles": [
-        "index/**"
-      ],
-      "caching": {
-        "defaultDuration": 604800,
-        "rules": []
-      },
-      "privileges": {
-        "shellCommands": []
-      },
-      "presets": [
+    "$schema": "https://github.com/glzr-io/zebar/raw/v3.0.3/resources/zpack-schema.json",
+    "name": "simplicity-white",
+    "version": "0.0.3",
+    "description": "A white and black alternative of the sleek and simple zebar theme 'simplicity' from ekewn/simplicity-zebar",
+    "tags": ["transparent", "white and black"],
+    "previewImages": ["resources\\Preview.png"],
+    "repositoryUrl": "https://github.com/bdgcypher/simplicity-white",
+    "widgets": [
         {
-          "name": "default",
-          "anchor": "top_center",
-          "offsetX": "0px",
-          "offsetY": "0px",
-          "width": "100%",
-          "height": "30px",
-          "monitorSelection": {
-            "type": "all"
-          },
-          "dockToEdge": {
-            "enabled": false,
-            "edge": null,
-            "windowMargin": "0px"
-          }
+            "name": "index",
+            "htmlPath": "index/index.html",
+            "zOrder": "normal",
+            "shownInTaskbar": false,
+            "focused": false,
+            "resizable": false,
+            "transparent": true,
+            "includeFiles": ["index/**"],
+            "caching": {
+                "defaultDuration": 604800,
+                "rules": []
+            },
+            "privileges": {
+                "shellCommands": []
+            },
+            "presets": [
+                {
+                    "name": "default",
+                    "anchor": "top_center",
+                    "offsetX": "0px",
+                    "offsetY": "0px",
+                    "width": "100%",
+                    "height": "30px",
+                    "monitorSelection": {
+                        "type": "all"
+                    },
+                    "dockToEdge": {
+                        "enabled": false,
+                        "edge": null,
+                        "windowMargin": "0px"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
