@@ -12,7 +12,7 @@ i {
 
 body {
     color: #ffffff;
-    font-family: "Cascadia Mono", "Segoe UI", "Helvetica Neue", Arial,
+    font-family: "Cascadia Mono", "Cascadia Mono", "Helvetica Neue", Arial,
         sans-serif;
     font-size: 16px;
     overflow: hidden;
@@ -120,7 +120,7 @@ body,
     border-radius: 99px;
     line-height: 1;
     padding: 4px 8px;
-    font-family: "Segoe UI Variable", "Segoe UI", "Helvetica Neue", Arial,
+    font-family: "Cascadia Mono", "Cascadia Mono", "Helvetica Neue", Arial,
         sans-serif;
     font-size: 12px;
     overflow: hidden;
